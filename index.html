@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Table-cars</title>
+</head>
+<body>
+
+    <div class="create-form">
+        <form id="formInput" class="formInput">
+            <input type="text" name="" id="name" placeholder="Enter Name">
+        <input type="number" name="" id="year" placeholder="Enter Year">
+        <input type="text" name="" id="color" placeholder="Enter Color">
+        <input type="text" name="" id="price" placeholder="Enter Price">
+        <input id="add-btn" type="button" value="Add">
+        </form>  
+    </div>
+    
+    <div class="container">
+
+        <form id="form">
+            <select name="cars" id="cars">
+                <option value="Audi">Audi</option>
+                <option value="BMW">BMW</option>
+                <option value="ferrari">Ferrari</option>
+                <option value="Bugatti">Bugatti</option>
+            </select>
+
+            <select name="year" id="yearSelect">
+                <option value="2000-2005">2000-2005</option>
+                <option value="2005-2010">2005-2010</option>
+                <option value="2010-2015">2010-2015</option>
+                <option value="2015-2020">2015-2020</option>
+                <option value="2015-2020">2020-2024</option>
+            </select>
+
+            <select name="price" id="priceSelect">
+                <option value="1000-5000">1000-5000</option>
+                <option value="5000-20000">5000-20000</option>
+                <option value="20000-50000">20000-50000</option>
+                <option value="50000-80000">50000-80000</option>
+            </select>
+        </form>
+
+        <div class="search">
+            <input type="search" id="search" placeholder="search">
+        </div>
+
+        <table>
+            <thead>
+                <tr>
+                    <th id="">No</th>
+                    <th id="nameCars">Name</th>
+                    <th id="colorCars">Color</th>
+                    <th id="yearCars">Year</th>
+                    <th id="priceCars">Price</th>
+                    <th id="statusCars">Status</th>
+                </tr>
+            </thead>
+            <tbody id="tbody">
+                <!-- <tr>
+                    <td>1</td>
+                    <td>Audi</td>
+                    <td>Black</td>
+                    <td>2012</td>
+                    <td>25000</td>
+                    <td>Sotilmagan</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>Ferrari</td>
+                    <td>Red</td>
+                    <td>2015</td>
+                    <td>30000</td>
+                    <td>Sotilgan</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Bugatti</td>
+                    <td>Black</td>
+                    <td>2012</td>
+                    <td>45000</td>
+                    <td>Sotilmagan</td>
+                </tr> -->
+            </tbody>
+        </table>
+            
+    </div>
+
+
+    <script src="./js/apps.js"></script>
+</body>
+</html>
